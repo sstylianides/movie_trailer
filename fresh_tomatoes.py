@@ -2,7 +2,7 @@ import webbrowser
 import os
 import re
 
-#NOTE NEW COMMENT
+
 # Styles and scripting for the page
 main_page_head = '''
 <!DOCTYPE html>
@@ -138,7 +138,7 @@ movie_tile_content = '''
     <h2>{movie_title}</h2>
     <div class="info-box">{movie_storyline}</div>
     <br>
-    <a class"btn btn-primary" role="button" href="{movie_website}">IMDb Website</a>
+    <a class"btn btn-primary" role="button" href="{movie_website}" target="_blank">IMDb Website</a>
 </div>
 </div>
 '''
